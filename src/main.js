@@ -6,6 +6,10 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+Vue.config.ignoredElements = [
+  /^agd-/
+]
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
